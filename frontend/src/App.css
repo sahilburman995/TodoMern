@@ -1,0 +1,60 @@
+.todo-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.message-form label {
+  margin-bottom: 10px;
+}
+
+.message-form input {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #2980b9;
+}
+
+.message-list {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.message-item {
+  list-style-type: none;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: #ecf0f1;
+  border-radius: 5px;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
